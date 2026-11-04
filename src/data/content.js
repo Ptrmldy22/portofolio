@@ -17,7 +17,7 @@ export const profile = {
   },
   // Daftarkan key gratis 
   // di web3forms.com lalu tempel di sini
-  web3formsKey: "YOUR_WEB3FORMS_ACCESS_KEY",
+  web3formsKey: "9e017108-92aa-4b84-ad46-6915de94ef29",
 };
 
 
