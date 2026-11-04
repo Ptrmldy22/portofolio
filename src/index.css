@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #f472b6;
+  --color-primary-dark: #ec4899;
+  --color-accent: #fb7185;
+  --color-soft: #fce7f3;
+  --color-bg: #fff7fa;
+  --color-ink: #3b1f2b;
+  --color-muted: #8b6b78;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-bg); color: var(--color-ink); font-family: var(--font-sans); }
+section { scroll-margin-top: 5rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
